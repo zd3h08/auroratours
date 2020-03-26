@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700|Noto+Serif+JP:400,500,700&display=swap&subset=japanese");
+@import url(../"https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700|Noto+Serif+JP:400,500,700&display=swap&subset=japanese");
 *,
 *::after,
 *::before {
@@ -310,29 +310,29 @@ body {
 }
 
 .delay-0s {
-  background-image: url(/images/slides/slide01.jpg);
+  background-image: url(../images/slides/slide01.jpg);
 }
 
 .delay-6s {
-  background-image: url(/images/slides/slide02.jpg);
+  background-image: url(../images/slides/slide02.jpg);
   -webkit-animation-delay: 8s;
   animation-delay: 8s;
 }
 
 .delay-12s {
-  background-image: url(/images/slides/slide03.jpg);
+  background-image: url(../images/slides/slide03.jpg);
   -webkit-animation-delay: 16s;
   animation-delay: 16s;
 }
 
 .delay-18s {
-  background-image: url(/images/slides/slide04.jpg);
+  background-image: url(../images/slides/slide04.jpg);
   -webkit-animation-delay: 24s;
   animation-delay: 24s;
 }
 
 .delay-24s {
-  background-image: url(/images/slides/slide05.jpg);
+  background-image: url(../images/slides/slide05.jpg);
   -webkit-animation-delay: 32s;
   animation-delay: 32s;
 }
@@ -724,8 +724,8 @@ body {
           mask: no-repeat left/2.2rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#8360c3), to(#2ebf91));
   background: linear-gradient(to bottom, #8360c3, #2ebf91);
-  -webkit-mask-image: url(/images/polar-bear.png);
-          mask-image: url(/images/polar-bear.png);
+  -webkit-mask-image: url(../images/polar-bear.png);
+          mask-image: url(../images/polar-bear.png);
   margin-top: .6rem;
 }
 
@@ -823,23 +823,23 @@ body {
 }
 
 .flip-card__front--1 {
-  background-image: url(/images/cards/pic01.jpg);
+  background-image: url(../images/cards/pic01.jpg);
   background-color: rgba(5, 5, 25, 0.15);
   background-blend-mode: overlay;
 }
 
 .flip-card__front--2 {
-  background-image: url(/images/cards/pic02.jpg);
+  background-image: url(../images/cards/pic02.jpg);
   background-color: rgba(0, 0, 0, 0.15);
   background-blend-mode: overlay;
 }
 
 .flip-card__front--3 {
-  background-image: url(/images/cards/pic03.jpg);
+  background-image: url(../images/cards/pic03.jpg);
 }
 
 .flip-card__front--4 {
-  background-image: url(/images/cards/pic04.jpg);
+  background-image: url(../images/cards/pic04.jpg);
   background-color: rgba(5, 5, 25, 0.25);
   background-blend-mode: overlay;
 }
@@ -1042,7 +1042,7 @@ body {
 
 .modal__content-inner--pic-1 {
   height: 100%;
-  background-image: url(/images/cards/pic01.jpg);
+  background-image: url(../images/cards/pic01.jpg);
   background-color: #050519;
   background-blend-mode: luminosity;
   background-size: cover;
@@ -1051,7 +1051,7 @@ body {
 
 .modal__content-inner--pic-2 {
   height: 100%;
-  background-image: url(/images/cards/pic02.jpg);
+  background-image: url(../images/cards/pic02.jpg);
   background-color: #050519;
   background-blend-mode: luminosity;
   background-size: cover;
@@ -1060,7 +1060,7 @@ body {
 
 .modal__content-inner--pic-3 {
   height: 100%;
-  background-image: url(/images/cards/pic03.jpg);
+  background-image: url(../images/cards/pic03.jpg);
   background-color: #050519;
   background-blend-mode: luminosity;
   background-size: cover;
@@ -1069,7 +1069,7 @@ body {
 
 .modal__content-inner--pic-4 {
   height: 100%;
-  background-image: url(/images/cards/pic04.jpg);
+  background-image: url(../images/cards/pic04.jpg);
   background-color: #050519;
   background-blend-mode: luminosity;
   background-size: cover;
@@ -1385,8 +1385,8 @@ body {
           mask: no-repeat left/2.2rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#8360c3), to(#2ebf91));
   background: linear-gradient(to bottom, #8360c3, #2ebf91);
-  -webkit-mask-image: url(/images/polar-bear.png);
-          mask-image: url(/images/polar-bear.png);
+  -webkit-mask-image: url(../images/polar-bear.png);
+          mask-image: url(../images/polar-bear.png);
   margin-top: .4rem;
 }
 
@@ -1486,7 +1486,7 @@ body {
       -ms-flex: 1;
           flex: 1;
   height: 100vh;
-  background-image: url(/images/background/bg1.jpg);
+  background-image: url(../images/background/bg1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1529,8 +1529,8 @@ body {
           mask: no-repeat left/10rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#8360c3), to(#2ebf91));
   background: linear-gradient(to bottom, #8360c3, #2ebf91);
-  -webkit-mask-image: url(/images/polar-bear.png);
-          mask-image: url(/images/polar-bear.png);
+  -webkit-mask-image: url(../images/polar-bear.png);
+          mask-image: url(../images/polar-bear.png);
 }
 
 .greet__text-box-sp {
@@ -1576,8 +1576,8 @@ body {
             mask: no-repeat left/7rem;
     background: -webkit-gradient(linear, left top, left bottom, from(#8360c3), to(#2ebf91));
     background: linear-gradient(to bottom, #8360c3, #2ebf91);
-    -webkit-mask-image: url(/images/polar-bear.png);
-            mask-image: url(/images/polar-bear.png);
+    -webkit-mask-image: url(../images/polar-bear.png);
+            mask-image: url(../images/polar-bear.png);
   }
 }
 
@@ -2653,7 +2653,7 @@ a.scroller.staff span.arrow::after {
 @media (max-width: 37.5em) {
   .header {
     background-color: #fff;
-    background-image: url(/images/background/bg1.jpg);
+    background-image: url(../images/background/bg1.jpg);
     background-position: center bottom;
     background-size: cover;
     background-color: rgba(96, 167, 195, 0.2);
@@ -2667,7 +2667,8 @@ a.scroller.staff span.arrow::after {
 
 .header p.header__title-box {
   font-size: 10rem;
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Serif JP",
+ serif;
   font-weight: 400;
   letter-spacing: 1rem;
   color: #050519;
@@ -2804,8 +2805,8 @@ a.scroller.staff span.arrow::after {
           mask: no-repeat left/5rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#8360c3), to(#2ebf91));
   background: linear-gradient(to bottom, #8360c3, #2ebf91);
-  -webkit-mask-image: url(/images/polar-bear.png);
-          mask-image: url(/images/polar-bear.png);
+  -webkit-mask-image: url(../images/polar-bear.png);
+          mask-image: url(../images/polar-bear.png);
 }
 
 .navigation__logo h1 {
@@ -2894,8 +2895,8 @@ a.scroller.staff span.arrow::after {
           mask: no-repeat left/3.8rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#8360c3), to(#2ebf91));
   background: linear-gradient(to bottom, #8360c3, #2ebf91);
-  -webkit-mask-image: url(/images/polar-bear.png);
-          mask-image: url(/images/polar-bear.png);
+  -webkit-mask-image: url(../images/polar-bear.png);
+          mask-image: url(../images/polar-bear.png);
 }
 
 .navigation.sticky .navigation__logo h1 {
@@ -2950,7 +2951,7 @@ a.scroller.staff span.arrow::after {
 
 .section-about {
   height: 100vh;
-  background-image: url(/images/background/bg3.jpg);
+  background-image: url(../images/background/bg3.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2974,7 +2975,7 @@ a.scroller.staff span.arrow::after {
 
 .section-news {
   height: 100vh;
-  background-image: url(/images/background/bg6.jpg);
+  background-image: url(../images/background/bg6.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2999,7 +3000,7 @@ a.scroller.staff span.arrow::after {
 
 .section-tours {
   height: 100vh;
-  background-image: url(/images/background/bg5.jpg);
+  background-image: url(../images/background/bg5.jpg);
   background-position: left top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3024,7 +3025,7 @@ a.scroller.staff span.arrow::after {
 
 .section-contact {
   height: 100vh;
-  background-image: url(/images/background/bg2.jpg);
+  background-image: url(../images/background/bg2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3061,7 +3062,7 @@ a.scroller.staff span.arrow::after {
 
 .section-staff {
   height: 95vh;
-  background-image: url(/images/background/bg4.jpg);
+  background-image: url(../images/background/bg4.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
