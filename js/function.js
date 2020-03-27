@@ -57,7 +57,11 @@ $(function () {
 // GALLERY MODAL SLIDE
 
 function openModal() {
-    document.getElementById("galleryModal").style.display = "flex";
+    document.getElementById("galleryModal").style.display = newFunction();
+
+    function newFunction() {
+        return "flex";
+    }
 }
 
 function closeModal() {

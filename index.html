@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Borealise Tours | オーロラを撮りにいくツアー |</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700&display=swap&subset=japanese"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -128,12 +130,12 @@
                 <div class="greet__text">
                     <div class="greet__text-box u-center-text">
                         <div class="greet__text-logo fade bottom"></div>
-                        <h2 class="heading-secondary white u-margin-bottom-medium fade bottom delay-02s">
+                        <h2 class="heading-secondary white u-margin-bottom-small fade bottom">
                             Welcome to Borealis tours!
                         </h2>
-                        <p class="paragraph greet u-margin-bottom-small fade bottom delay-03s">
+                        <p class="paragraph greet u-margin-bottom-small fade bottom">
                             一生に一度は見たいオーロラをご自身のカメラで思う存分に撮りたいを叶えるワークショップ・ツアーを体験してみませんか。</p>
-                        <p class="paragraph greet fade bottom delay-04s">
+                        <p class="paragraph greet fade bottom">
                             ボレアリスツアーズでは、カナダのノースウエスト準州のイエローナイフ、ユーコン州のホワイトホース、そしてアルバータ州のフォートマクマレーを拠点とし、1人から6人の少人数の日本語ガイドツアーを催行しています。
                         </p>
                     </div>
@@ -145,7 +147,7 @@
             <a href="#news" class="scroller"><span class="arrow"></span></a>
             <div class="container">
                 <div class="u-center-text u-margin-bottom-medium sp">
-                    <h2 class="heading-secondary u-margin-bottom-small">
+                    <h2 class="heading-secondary">
                         About
                     </h2>
                     <p class="paragraph">オーロラツアーを楽しむために知っておきたいこと</p>
@@ -406,7 +408,7 @@
             <a href="#tours" class="scroller"><span class="arrow"></span></a>
             <div class="container">
                 <div class="u-center-text u-margin-bottom-medium sp">
-                    <h2 class="heading-secondary white u-margin-bottom-small">
+                    <h2 class="heading-secondary white">
                         News
                     </h2>
                     <p class="paragraph white sp">現地から様々な情報をお届けします</p>
@@ -838,7 +840,7 @@
             <a href="#contact" class="scroller"><span class="arrow"></span></a>
             <div class="container">
                 <div class="u-center-text u-margin-bottom-medium">
-                    <h2 class="heading-secondary u-margin-bottom-small white">
+                    <h2 class="heading-secondary white">
                         Tours
                     </h2>
                     <p class="paragraph white sp">オーロラツアーのご案内</p>
@@ -1016,14 +1018,13 @@
                 <div class="contact__wrapper">
                     <div class="contact__form">
                         <form action="#" class="form">
-                            <div class="u-margin-bottom-small">
-                                <h2 class="heading-secondary white">Contact</h2>
-                            </div>
+                            <h2 class="heading-secondary white">Contact<span class="sp">お問い合わせ</span></h2>
+                            
                             <label for="name" class="form__label">お名前</label>
                             <input type="text" class="form__input" placeholder="お名前" required>
                             <label for="email" class="form__label">メールアドレス</label>
                             <input type="email" class="form__input" placeholder="メールアドレス" id="email" required>
-                            <div class="form__group u-margin-bottom-small">
+                            <div class="form__group">
                                 <p>ご希望の渡航先</p>
                                 <div class="form__radio-group">
                                     <input type="radio" class="form__radio-input" id="yn" name="place">
@@ -1088,8 +1089,8 @@
         <section class="section-gallery scroll" id="gallery">
             <a href="#staff" class="scroller"><span class="arrow"></span></a>
             <div class="container">
-                <div class="u-center-text u-margin-bottom-medium">
-                    <h2 class="heading-secondary u-margin-bottom-small">
+                <div class="u-center-text u-margin-bottom-small">
+                    <h2 class="heading-secondary">
                         Gallery
                     </h2>
                     <p class="paragraph">#aurora #northernlights</p>
@@ -1174,9 +1175,8 @@
             <!-- GALLERY MODAL SLIDE WINDOW -->
             <div id="galleryModal" class="gallery__modal">
                 <span class="close cursor" onclick="closeModal()"><i class="fas fa-times"></i></span>
-                <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-chevron-left"></i></a>
                 <div class="gallery__modal-content">
-
+                    <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-chevron-left"></i></a>
                     <!-- GALLERY MODAL 1 -->
                     <div class="gallery__Slides">
                         <div class="gallery__modal_item">
@@ -1211,7 +1211,14 @@
                                         <span class="post-time">3日前</span>
                                     </p>
                                 </div>
-
+                                <div class="insta-post">
+                                    <div class="circle-pink">
+                                        <span><i class="fas fa-hippo"></i></span>
+                                    </div>
+                                    <p class="username">hippo<span class="insta-post-text">wow<br>wow</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
                                 <div class="insta-action">
                                     <ul>
                                         <li><i class="far fa-heart"></i></li>
@@ -1220,6 +1227,10 @@
                                     </ul>
                                     <span class="insta-bm"><i class="far fa-bookmark"></i></span>
                                 </div>
+                                <p class="insta-post-action">
+                                    <span class="insta-action-good">いいね！50件</span>
+                                    <span class="post-time">1日前</span>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1235,12 +1246,57 @@
                             <div class="gallery__modal_item-right">
                                 <div class="instagram-account">
                                     <div class="circle-gradation">
-                                        <div class="circle">
-                                            <span class="instagram-avatar"></span>
+                                        <div class="circle-white">
+                                            <div class="circle">
+                                                <span class="instagram-avatar"></span>
+                                            </div>
                                         </div>
                                     </div>
-                                    <p class="username">Borealis Tours・</p>
+                                    <p class="username">Borealis Tours • <span class="skyblue">フォローする</span>
+                                        <span class="location">Yellowknife, Canada</span></p>
+                                    <i class="fas fa-ellipsis-h"></i>
                                 </div>
+                                <div class="insta-post">
+                                    <div class="circle-gradation">
+                                        <div class="circle-white">
+                                            <div class="circle">
+                                                <span class="instagram-avatar"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="username">Borealis Tours<span class="insta-post-text">Today's Aurora!!!
+                                            <br> #northernlight</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
+                                <div class="insta-post">
+                                    <div class="circle-blue">
+                                        <span><i class="fas fa-dragon"></i></span>
+                                    </div>
+                                    <p class="username">dragon<span class="insta-post-text">wow<br>wow</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
+                                <div class="insta-post">
+                                    <div class="circle-pink">
+                                        <span><i class="fas fa-hippo"></i></span>
+                                    </div>
+                                    <p class="username">hippo<span class="insta-post-text">wow<br>wow</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
+                                <div class="insta-action">
+                                    <ul>
+                                        <li><i class="far fa-heart"></i></li>
+                                        <li><i class="far fa-comment"></i></li>
+                                        <li><i class="far fa-paper-plane"></i></li>
+                                    </ul>
+                                    <span class="insta-bm"><i class="far fa-bookmark"></i></span>
+                                </div>
+                                <p class="insta-post-action">
+                                    <span class="insta-action-good">いいね！50件</span>
+                                    <span class="post-time">1日前</span>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1256,12 +1312,49 @@
                             <div class="gallery__modal_item-right">
                                 <div class="instagram-account">
                                     <div class="circle-gradation">
-                                        <div class="circle">
-                                            <span class="instagram-avatar"></span>
+                                        <div class="circle-white">
+                                            <div class="circle">
+                                                <span class="instagram-avatar"></span>
+                                            </div>
                                         </div>
                                     </div>
-                                    <p class="username">Borealis Tours・</p>
+                                    <p class="username">Borealis Tours • <span class="skyblue">フォローする</span>
+                                        <span class="location">Yellowknife, Canada</span></p>
+                                    <i class="fas fa-ellipsis-h"></i>
                                 </div>
+                                <div class="insta-post">
+                                    <div class="circle-gradation">
+                                        <div class="circle-white">
+                                            <div class="circle">
+                                                <span class="instagram-avatar"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="username">Borealis Tours<span class="insta-post-text">Today's Aurora!!!
+                                            <br> #northernlight</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
+                                <div class="insta-post">
+                                    <div class="circle-pink">
+                                        <span><i class="fas fa-hippo"></i></span>
+                                    </div>
+                                    <p class="username">hippo<span class="insta-post-text">wow<br>wow</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
+                                <div class="insta-action">
+                                    <ul>
+                                        <li><i class="far fa-heart"></i></li>
+                                        <li><i class="far fa-comment"></i></li>
+                                        <li><i class="far fa-paper-plane"></i></li>
+                                    </ul>
+                                    <span class="insta-bm"><i class="far fa-bookmark"></i></span>
+                                </div>
+                                <p class="insta-post-action">
+                                    <span class="insta-action-good">いいね！50件</span>
+                                    <span class="post-time">1日前</span>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1277,12 +1370,49 @@
                             <div class="gallery__modal_item-right">
                                 <div class="instagram-account">
                                     <div class="circle-gradation">
-                                        <div class="circle">
-                                            <span class="instagram-avatar"></span>
+                                        <div class="circle-white">
+                                            <div class="circle">
+                                                <span class="instagram-avatar"></span>
+                                            </div>
                                         </div>
                                     </div>
-                                    <p class="username">Borealis Tours・</p>
+                                    <p class="username">Borealis Tours • <span class="skyblue">フォローする</span>
+                                        <span class="location">Yellowknife, Canada</span></p>
+                                    <i class="fas fa-ellipsis-h"></i>
                                 </div>
+                                <div class="insta-post">
+                                    <div class="circle-gradation">
+                                        <div class="circle-white">
+                                            <div class="circle">
+                                                <span class="instagram-avatar"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="username">Borealis Tours<span class="insta-post-text">Today's Aurora!!!
+                                            <br> #northernlight</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
+                                <div class="insta-post">
+                                    <div class="circle-pink">
+                                        <span><i class="fas fa-hippo"></i></span>
+                                    </div>
+                                    <p class="username">hippo<span class="insta-post-text">wow<br>wow</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
+                                <div class="insta-action">
+                                    <ul>
+                                        <li><i class="far fa-heart"></i></li>
+                                        <li><i class="far fa-comment"></i></li>
+                                        <li><i class="far fa-paper-plane"></i></li>
+                                    </ul>
+                                    <span class="insta-bm"><i class="far fa-bookmark"></i></span>
+                                </div>
+                                <p class="insta-post-action">
+                                    <span class="insta-action-good">いいね！50件</span>
+                                    <span class="post-time">1日前</span>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1297,12 +1427,49 @@
                             <div class="gallery__modal_item-right">
                                 <div class="instagram-account">
                                     <div class="circle-gradation">
-                                        <div class="circle">
-                                            <span class="instagram-avatar"></span>
+                                        <div class="circle-white">
+                                            <div class="circle">
+                                                <span class="instagram-avatar"></span>
+                                            </div>
                                         </div>
                                     </div>
-                                    <p class="username">Borealis Tours・</p>
+                                    <p class="username">Borealis Tours • <span class="skyblue">フォローする</span>
+                                        <span class="location">Yellowknife, Canada</span></p>
+                                    <i class="fas fa-ellipsis-h"></i>
                                 </div>
+                                <div class="insta-post">
+                                    <div class="circle-gradation">
+                                        <div class="circle-white">
+                                            <div class="circle">
+                                                <span class="instagram-avatar"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="username">Borealis Tours<span class="insta-post-text">Today's Aurora!!!
+                                            <br> #northernlight</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
+                                <div class="insta-post">
+                                    <div class="circle-pink">
+                                        <span><i class="fas fa-hippo"></i></span>
+                                    </div>
+                                    <p class="username">hippo<span class="insta-post-text">wow<br>wow</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
+                                <div class="insta-action">
+                                    <ul>
+                                        <li><i class="far fa-heart"></i></li>
+                                        <li><i class="far fa-comment"></i></li>
+                                        <li><i class="far fa-paper-plane"></i></li>
+                                    </ul>
+                                    <span class="insta-bm"><i class="far fa-bookmark"></i></span>
+                                </div>
+                                <p class="insta-post-action">
+                                    <span class="insta-action-good">いいね！50件</span>
+                                    <span class="post-time">1日前</span>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1317,12 +1484,49 @@
                             <div class="gallery__modal_item-right">
                                 <div class="instagram-account">
                                     <div class="circle-gradation">
-                                        <div class="circle">
-                                            <span class="instagram-avatar"></span>
+                                        <div class="circle-white">
+                                            <div class="circle">
+                                                <span class="instagram-avatar"></span>
+                                            </div>
                                         </div>
                                     </div>
-                                    <p class="username">Borealis Tours・</p>
+                                    <p class="username">Borealis Tours • <span class="skyblue">フォローする</span>
+                                        <span class="location">Yellowknife, Canada</span></p>
+                                    <i class="fas fa-ellipsis-h"></i>
                                 </div>
+                                <div class="insta-post">
+                                    <div class="circle-gradation">
+                                        <div class="circle-white">
+                                            <div class="circle">
+                                                <span class="instagram-avatar"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="username">Borealis Tours<span class="insta-post-text">Today's Aurora!!!
+                                            <br> #northernlight</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
+                                <div class="insta-post">
+                                    <div class="circle-pink">
+                                        <span><i class="fas fa-hippo"></i></span>
+                                    </div>
+                                    <p class="username">hippo<span class="insta-post-text">wow<br>wow</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
+                                <div class="insta-action">
+                                    <ul>
+                                        <li><i class="far fa-heart"></i></li>
+                                        <li><i class="far fa-comment"></i></li>
+                                        <li><i class="far fa-paper-plane"></i></li>
+                                    </ul>
+                                    <span class="insta-bm"><i class="far fa-bookmark"></i></span>
+                                </div>
+                                <p class="insta-post-action">
+                                    <span class="insta-action-good">いいね！50件</span>
+                                    <span class="post-time">1日前</span>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1337,12 +1541,49 @@
                             <div class="gallery__modal_item-right">
                                 <div class="instagram-account">
                                     <div class="circle-gradation">
-                                        <div class="circle">
-                                            <span class="instagram-avatar"></span>
+                                        <div class="circle-white">
+                                            <div class="circle">
+                                                <span class="instagram-avatar"></span>
+                                            </div>
                                         </div>
                                     </div>
-                                    <p class="username">Borealis Tours・</p>
+                                    <p class="username">Borealis Tours • <span class="skyblue">フォローする</span>
+                                        <span class="location">Yellowknife, Canada</span></p>
+                                    <i class="fas fa-ellipsis-h"></i>
                                 </div>
+                                <div class="insta-post">
+                                    <div class="circle-gradation">
+                                        <div class="circle-white">
+                                            <div class="circle">
+                                                <span class="instagram-avatar"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="username">Borealis Tours<span class="insta-post-text">Today's Aurora!!!
+                                            <br> #northernlight</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
+                                <div class="insta-post">
+                                    <div class="circle-pink">
+                                        <span><i class="fas fa-hippo"></i></span>
+                                    </div>
+                                    <p class="username">hippo<span class="insta-post-text">wow<br>wow</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
+                                <div class="insta-action">
+                                    <ul>
+                                        <li><i class="far fa-heart"></i></li>
+                                        <li><i class="far fa-comment"></i></li>
+                                        <li><i class="far fa-paper-plane"></i></li>
+                                    </ul>
+                                    <span class="insta-bm"><i class="far fa-bookmark"></i></span>
+                                </div>
+                                <p class="insta-post-action">
+                                    <span class="insta-action-good">いいね！50件</span>
+                                    <span class="post-time">1日前</span>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1357,119 +1598,69 @@
                             <div class="gallery__modal_item-right">
                                 <div class="instagram-account">
                                     <div class="circle-gradation">
-                                        <div class="circle">
-                                            <span class="instagram-avatar"></span>
+                                        <div class="circle-white">
+                                            <div class="circle">
+                                                <span class="instagram-avatar"></span>
+                                            </div>
                                         </div>
                                     </div>
-                                    <p class="username">Borealis Tours・</p>
+                                    <p class="username">Borealis Tours • <span class="skyblue">フォローする</span>
+                                        <span class="location">Yellowknife, Canada</span></p>
+                                    <i class="fas fa-ellipsis-h"></i>
                                 </div>
+                                <div class="insta-post">
+                                    <div class="circle-gradation">
+                                        <div class="circle-white">
+                                            <div class="circle">
+                                                <span class="instagram-avatar"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="username">Borealis Tours<span class="insta-post-text">Today's Aurora!!!
+                                            <br> #northernlight</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
+                                <div class="insta-post">
+                                    <div class="circle-blue">
+                                        <span><i class="fas fa-dragon"></i></span>
+                                    </div>
+                                    <p class="username">dragon<span class="insta-post-text">wow<br>wow</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
+                                <div class="insta-post">
+                                    <div class="circle-pink">
+                                        <span><i class="fas fa-hippo"></i></span>
+                                    </div>
+                                    <p class="username">hippo<span class="insta-post-text">wow<br>wow</span>
+                                        <span class="post-time">3日前</span>
+                                    </p>
+                                </div>
+                                <div class="insta-action">
+                                    <ul>
+                                        <li><i class="far fa-heart"></i></li>
+                                        <li><i class="far fa-comment"></i></li>
+                                        <li><i class="far fa-paper-plane"></i></li>
+                                    </ul>
+                                    <span class="insta-bm"><i class="far fa-bookmark"></i></span>
+                                </div>
+                                <p class="insta-post-action">
+                                    <span class="insta-action-good">いいね！50件</span>
+                                    <span class="post-time">1日前</span>
+                                </p>
                             </div>
                         </div>
                     </div>
+                    <a class="next" onclick="plusSlides(1)"><i class="fas fa-chevron-right"></i></a>
                 </div>
-                <a class="next" onclick="plusSlides(1)"><i class="fas fa-chevron-right"></i></a>
             </div>
-
-
-
-
-
-            <!-- GALLERY MODAL WINDOW -->
-            <!-- <div class="gallery__instagram">
-                <label for="gallery__controller" class="gallery__btn"><i class="fas fa-external-link-alt"></i></label>
-                <div class="gallery__modal">
-                    <input type="checkbox" id="gallery__controller" class="gallery__open" hidden>
-                    <div class="gallery__modal_wrap">
-                        <label for="gallery__controller" class="gallery__overlay"></label>
-                        <div class="gallery__modal_content">
-                            <label for="gallery__controller" class="gallery__close"></label>
-                            <input type="radio" name="nav" id="gallery__slide-1" class="gallery__radio" checked hidden>
-                            <input type="radio" name="nav" id="gallery__slide-2" class="gallery__radio" hidden>
-                            <input type="radio" name="nav" id="gallery__slide-3" class="gallery__radio" hidden> -->
-
-            <!-- GALLERY MODAL 1 -->
-            <!-- <div class="gallery__modal_slide gallery-1">
-                                <div class="gallery__modal_item">
-                                    <div class="gallery__modal_item-left">
-                                        <div class="gallery__modal_item-left--pic">
-                                            <img src="images/gallery/pic01.jpg">
-                                        </div>
-                                    </div>
-                                    <div class="gallery__modal_item-right">
-                                        <div class="instagram-account">
-                                            <div class="circle-gradation">
-                                                <div class="circle">
-                                                    <span class="instagram-avatar"></span>
-                                                </div>
-                                            </div>
-                                            <p class="username">Borealis Tours・</p>
-                                        </div>
-                                    </div>
-                                    <div class="gallery__nav">
-                                        <label for="gallery__slide-2" class="gallery__next"></label>
-                                    </div>
-                                </div>
-                            </div> -->
-
-            <!-- GALLERY MODAL 2 -->
-            <!-- <div class="gallery__modal_slide gallery-2">
-                                <div class="gallery__modal_item">
-                                    <div class="gallery__modal_item-left">
-                                        <div class="gallery__modal_item-left--pic">
-                                            <img src="images/gallery/pic02.jpg">
-                                        </div>
-                                    </div>
-                                    <div class="gallery__modal_item-right">
-                                        <div class="instagram-account">
-                                            <div class="circle-gradation">
-                                                <div class="circle">
-                                                    <span class="instagram-avatar"></span>
-                                                </div>
-                                            </div>
-                                            <p class="username">Borealis Tours・</p>
-                                        </div>
-                                    </div>
-                                    <div class="gallery__nav">
-                                        <label for="gallery__slide-1" class="gallery__prev"></label>
-                                        <label for="gallery__slide-3" class="gallery__next"></label>
-                                    </div>
-                                </div>
-                            </div> -->
-
-            <!-- GALLERY MODAL 3 -->
-            <!-- <div class="gallery__modal_slide gallery-3">
-                                <div class="gallery__modal_item">
-                                    <div class="gallery__modal_item-left">
-                                        <div class="gallery__modal_item-left--pic">
-                                            <img src="images/gallery/pic03.jpg">
-                                        </div>
-                                    </div>
-                                    <div class="gallery__modal_item-right">
-                                        <div class="instagram-account">
-                                            <div class="circle-gradation">
-                                                <div class="circle">
-                                                    <span class="instagram-avatar"></span>
-                                                </div>
-                                            </div>
-                                            <p class="username">Borealis Tours・</p>
-                                        </div>
-                                    </div>
-                                    <div class="gallery__nav">
-                                        <label for="gallery__slide-2" class="gallery__prev"></label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- GALLERY MODAL WINDOW END -->
         </section>
         <section class="section-staff scroll" id="staff">
             <a href="#top" class="scroller staff"><span class="arrow"></span></a>
             <div class="container">
-                <div class="u-center-text u-margin-bottom-medium">
-                    <h2 class="heading-secondary white u-margin-bottom-small">
+                <div class="u-center-text">
+                    <h2 class="heading-secondary white u-margin-top-small">
                         Staff
                     </h2>
                     <p class="paragraph white sp">ツアーガイドの紹介</p>
